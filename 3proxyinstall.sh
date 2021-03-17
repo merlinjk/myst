@@ -10,7 +10,7 @@ cd bin
 mkdir /etc/3proxy/
 mv 3proxy /etc/3proxy/
 cd /etc/3proxy/
-wget --no-check-certificate https://raw.githubusercontent.com/merlinjk/myst/main/3proxy.cfg?token=AOKJ6PIPFBGYZHY2UCH3TATAKIR4W
+https://raw.githubusercontent.com/merlinjk/myst/main/3proxy.cfg
 chmod 600 /etc/3proxy/3proxy.cfg
 mkdir /var/log/3proxy/
 cd /etc/init.d/
