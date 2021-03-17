@@ -1,7 +1,7 @@
 apt-get update
 apt-get install gcc make git -y
-wget --no-check-certificate -O https://github.com/z3APA3A/3proxy/releases/download/0.9.3/3proxy-0.9.3.tar.gz
-tar xzf 3proxy-0.9.3.tar.gz
+wget --no-check-certificate https://github.com/z3APA3A/3proxy/archive/0.9.3.tar.gz
+tar xzf 0.9.3.tar.gz
 cd 3proxy-0.9.3
 make -f Makefile.Linux
 cd bin
