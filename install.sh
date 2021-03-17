@@ -1,8 +1,8 @@
 
- apt update && apt upgrade
- apt install software-properties-common
- add-apt-repository ppa:mysteriumnetwork/node
- apt install myst
+ apt update && apt upgrade -y
+ apt install software-properties-common -y
+ add-apt-repository ppa:mysteriumnetwork/node -y
+ apt install myst -y
  apt update
  systemctl stop mysterium-node.service
  systemctl disable mysterium-node.service
