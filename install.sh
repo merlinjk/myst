@@ -1,5 +1,5 @@
 
- apt update
+ apt update && apt upgrade
  add-apt-repository ppa:mysteriumnetwork/node
  apt install myst
  apt update
