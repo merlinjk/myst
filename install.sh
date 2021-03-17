@@ -1,5 +1,6 @@
 
  apt update && apt upgrade
+ apt install software-properties-common
  add-apt-repository ppa:mysteriumnetwork/node
  apt install myst
  apt update
